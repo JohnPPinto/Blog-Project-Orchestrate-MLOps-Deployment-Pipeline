@@ -150,3 +150,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Model files
+model_base_capfilt_large.pth
+model_base_vqa_capfilt_large.pth
+backend/model_base_capfilt_large.pth
+backend/model_base_vqa_capfilt_large.pth

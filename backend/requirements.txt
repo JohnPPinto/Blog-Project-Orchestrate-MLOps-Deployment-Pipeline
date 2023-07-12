@@ -1,0 +1,8 @@
+torch==2.0.1
+torchvision==0.15.2
+timm==0.4.12
+transformers==4.26.1
+fairscale==0.4.4
+fastapi==0.100.0
+uvicorn==0.22.0
+python-multipart==0.0.6
