@@ -45,6 +45,9 @@ with col1:
 
 with col2:
     st.header('Result')
+
+    if question:
+        st.write(f'Question: {question}')
     
     if submit_button and image is not None:
         files = {'file': image.getvalue()}
@@ -58,4 +61,4 @@ with col2:
                                 files=files, 
                                 params=params)
             result = res.json()
-            st.write(result['prediction'])
+            st.write(f'Prediction: {result["prediction"]}')
